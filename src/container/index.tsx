@@ -5,7 +5,7 @@ import React, {
   useCallback,
 } from 'react'
 import FlipMove from 'react-flip-move'
-import MessageHolder from '@/message/message-holder'
+import MessageHolder from '../message/message-holder'
 import useGenId from '../hooks/use-id'
 import timeout from '../helper/timeout'
 import { getDuration, getPrefixCls } from '../config'

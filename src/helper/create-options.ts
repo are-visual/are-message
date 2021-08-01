@@ -1,8 +1,8 @@
-import { ContentOrOptions } from '@/types/api-shape'
-import { MessageRef } from '@/types/message-ref'
-import { MessageOptions, PropsWithMsgKey } from '@/types/message-shape'
 import { isPlainObject } from 'lodash-es'
 import React from 'react'
+import { ContentOrOptions } from '../types/api-shape'
+import { MessageRef } from '../types/message-ref'
+import { MessageOptions, PropsWithMsgKey } from '../types/message-shape'
 
 type OtherOptions = Omit<MessageOptions, 'content' | 'duration'>
 

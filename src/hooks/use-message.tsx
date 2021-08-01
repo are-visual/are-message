@@ -1,9 +1,9 @@
 import React, { useMemo, useState } from 'react'
-import createInstance from '@/helper/create-instance'
-import createOptions from '@/helper/create-options'
-import Message from '@/message'
-import { MessageKey } from '@/types/message-shape'
-import createPromise from '@/helper/create-promise'
+import createInstance from '../helper/create-instance'
+import createOptions from '../helper/create-options'
+import Message from '../message'
+import { MessageKey } from '../types/message-shape'
+import createPromise from '../helper/create-promise'
 import { MessageApiShape } from '../types/api-shape'
 
 type MessageHook = [MessageApiShape, React.ReactNode]

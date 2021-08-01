@@ -1,8 +1,8 @@
-import createInstance from '@/helper/create-instance'
-import { MessageApiShape } from '@/types/api-shape'
-import { MessageKey } from '@/types/message-shape'
-import createOptions from '@/helper/create-options'
-import createPromise from '@/helper/create-promise'
+import createInstance from '../helper/create-instance'
+import { MessageApiShape } from '../types/api-shape'
+import { MessageKey } from '../types/message-shape'
+import createOptions from '../helper/create-options'
+import createPromise from '../helper/create-promise'
 
 export interface ThenableArgument {
   (val: any): void
