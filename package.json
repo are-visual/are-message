@@ -20,7 +20,7 @@
     "es",
     "lib"
   ],
-  "homepage": "https://github.com/Y-Hui/are-message",
+  "homepage": "https://github.com/are-visual/are-message",
   "license": "MIT",
   "main": "lib/index",
   "module": "es/index",

@@ -1,33 +1,32 @@
-# are-message
+## are-message
 
-This is a React global notification message component. It is a standalone implementation of the [are-visual message](https://y-hui.github.io/are-visual/docs-dist/components/message) component.<br/>
-
-Refer to some excellent open source projects ([antd](https://ant.design/))
-
-## Documentation
-
-[English Doc](https://y-hui.github.io/are-message/docs-dist/)<br/>
-[中文文档](https://y-hui.github.io/are-message/docs-dist/zh-CN/)<br/>
+This is a React global alert message component.<br/>
+Some good open source projects were referenced during development ([antd](https://ant.design/)、[rc-notification](https://github.com/react-component/notification))
 
 ## Install
 
 ```bash
-# via npm
+# npm install
 npm install are-message
 
-# via yarn
+# yarn install
 yarn add are-message
 ```
 
-## Usage
+## Documentation
+
+[English Doc](http://are-visual.github.io/are-message/docs-dist/)<br/>
+[中文文档](http://are-visual.github.io/are-message/docs-dist/#/zh-CN)<br/>
+
+## Use
 
 ```ts
 import { message } from 'are-message'
-import 'are-message/assets/index.css' // use css or less
-import 'are-message/assets/index.less' // use css or less
+import 'are-message/assets/index.css' // Importing styles (css or less)
+import 'are-message/assets/index.less' // Importing styles (css or less)
 ```
 
-## About name
+## About
 
 You can call and spell `are-message` like this.
 

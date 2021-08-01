@@ -13,6 +13,11 @@ npm install are-message
 yarn add are-message
 ```
 
+## Documentation
+
+[English Doc](http://are-visual.github.io/are-message/docs-dist/)<br/>
+[中文文档](http://are-visual.github.io/are-message/docs-dist/#/zh-CN)<br/>
+
 ## Use
 
 ```ts

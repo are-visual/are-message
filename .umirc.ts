@@ -2,20 +2,20 @@ import { defineConfig } from 'dumi'
 
 const ENV = process.env.NODE_ENV
 const prefix = '/are-message/docs-dist/'
+const isProduction = ENV === 'production'
 
 export default defineConfig({
   title: 'are-message',
-  favicon:
-    ENV === 'production'
-      ? `${prefix}/images/favicon.ico`
-      : '/images/favicon.ico',
-  logo:
-    ENV === 'production'
-      ? `${prefix}/images/are-visual.svg`
-      : '/images/are-visual.svg',
-  publicPath: ENV === 'production' ? '/are-message/docs-dist/' : '/',
+  favicon: isProduction
+    ? `${prefix}/images/favicon.ico`
+    : '/images/favicon.ico',
+  logo: isProduction
+    ? `${prefix}/images/are-visual.svg`
+    : '/images/are-visual.svg',
+  publicPath: isProduction ? prefix : '/',
   outputPath: 'docs-dist',
-  exportStatic: ENV === 'production' ? {} : false,
+  hash: true,
+  history: { type: 'hash' },
   styles: [
     `
       body {
